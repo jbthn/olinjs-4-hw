@@ -1,0 +1,77 @@
+body {
+  padding: 50px;
+  font: 14px Helvetica, Arial, sans-serif;
+  background-color: #5092BF;
+}
+
+a {
+  color: #00B7FF;
+}
+
+h3 {
+	font-size: 18px;
+}
+
+div.border {
+	background-color: #949494;
+	border: 5px solid black;
+	border-radius: 10px;
+	display: inline-block;
+	margin: 10px;
+}
+
+div.wrapText {
+	width: 70px;
+	display: inline-block;
+	margin: 0px 10px;
+}
+
+div.tweet {
+	display: block;
+	margin: 20px;
+}
+
+p.tweet {
+	font-size: 10pt;
+	margin-top: 10px;
+}
+
+.button {
+	border: 1px solid black;
+	background-color: #D1D1D1;
+	float: right;
+	margin: 10px 15px 15px;
+	/*font-weight: bold;*/
+}
+
+div.input {
+	display: inline-block;
+	margin: 30px 15px 0px;
+	float: right;
+}
+
+.close {
+	margin-bottom: 0px;
+}
+
+textarea.textbox {
+	background-color: #D1D1D1;
+	border: none;
+}
+
+div.submitTwit {
+	vertical-align: top;
+	width: 375px;
+}
+
+div.twitterFeed {
+	width: 500px;
+}
+
+hr {
+	display: block;
+	height: 5px;
+	border: 0;
+	color: black;
+	background-color: black;
+}

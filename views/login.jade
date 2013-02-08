@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  h1 Welcome to Crappy Twitter!
+  p Please log in or sign up below:
+  form(method='post', action='/users/new')
+    input(type='text', name='name', placeholder='username')
+    &nbsp;
+    input(type='submit', value='Log in / Sign up')

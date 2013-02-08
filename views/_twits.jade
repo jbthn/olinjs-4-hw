@@ -1,0 +1,9 @@
+div(class='feed')
+  -if (tweets.length > 0)
+    each tweet in tweets
+      div(class='tweet')
+        h3(class='close') #{tweet.poster}
+        p(class='tweet') #{tweet.msg}
+  -else
+    div(class='tweet')
+      p Just kidding... no twits to display yet!

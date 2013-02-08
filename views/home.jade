@@ -1,0 +1,24 @@
+extends layout
+
+block content
+  center 
+    h1 Crappy Twitter
+  div
+    div(class='submitTwit border')
+      -if (user)
+        form(class='compose', id='newTwit')
+          div(class='wrapText')
+            center
+              h3 Compose a Twit
+          div(class='input')
+            textarea(rows='1', cols='30', name='msg', class='textbox')
+          br
+          input(type='submit', value='Send Twit', class='button')
+      -else
+        center
+         h4 Please log in so you can post twits too.
+    div(class='twitterFeed border')
+      center
+        h2(class='close') Look at all these twits!
+      hr
+      include _twits
